@@ -236,6 +236,11 @@ main {
   line-height: 150%;
 }
 
+ul {
+  padding-left: 2rem;
+  list-style: square;
+}
+
 .hide {
   display: none;
   transition: all 0.7;

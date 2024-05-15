@@ -6,26 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="icon" type="image/x-icon" href="./src/dice-logo.ico" />
     <link rel="stylesheet" href="style.css" />
-    <title>Greedy Roll</title>
+    <title>Greedy Roller</title>
   </head>
   <body>
     <header>
       <button class="instruction">i</button>
       <div class="model hide">
-        <h2 class="headline">Welcome to Greedy 🎲 Roll</h2>
+        <h2 class="headline">Welcome to Greedy 🎲 Roller</h2>
         <h3 class="instruc">Instruction</h3>
         <ol>
-          <li>Roll the dice.</li>
+          <li>Roll the dice by selecting the "Roll" option.</li>
           <li>
-            When you roll the dice, Your dice value added to the current point.
+            The value rolled on the dice will be added to your current points.
           </li>
           <li>
-            Now you can either hold the current point and make it to your final
-            score or you can continue roll the dice but keep that in mind when
-            you roll the number 1 your current point will set back to zero and
-            player changes.
+            You have two options after rolling:
+            <ul>
+              <li>
+                Hold: If you're satisfied with your current points, select
+                "Hold" to add them to your final score.
+              </li>
+              <li>
+                Roll Again: Choose to roll again, but be cautious: <br />
+                - If you roll a 1, your current points reset to zero, and it
+                becomes the next player's turn.
+              </li>
+            </ul>
           </li>
-          <li>Player only wins, who scores 100 points first.</li>
+          <li>
+            The game continues until one player reaches a final score of 100 or
+            more.
+          </li>
+          <li>The first player to reach or exceed 100 points wins the game.</li>
         </ol>
       </div>
     </header>
